@@ -10,8 +10,9 @@ spec:
     path: deployment
   destination:
     server: https://kubernetes.default.svc
-    namespace: user-onyxia
+    namespace: user-apidburachynskyi
   syncPolicy:
     automated:
 
       selfHeal: true
+
